@@ -1,5 +1,4 @@
-print("Subdomain Scanner Tool Loaded!")
-import requests # type: ignore
+import requests
 
 def find_subdomains(domain, subdomains):
     print(f"\n[+] Finding subdomains for: {domain}\n")
