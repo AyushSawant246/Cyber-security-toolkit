@@ -4,7 +4,7 @@ import argparse
 parser = argparse.ArgumentParser(description="Basic Port Scanner")
 
 parser.add_argument("-t", "--target", help="Target IP address", required=True)
-parser.add_argument("-p", "--ports", help="Port range (e.g. 20-80)", default="1-100")
+parser.add_argument("-p", "--ports", help="Port range (e.g. 20-80)", default="1-1024")
 
 args = parser.parse_args()
 target = args.target
