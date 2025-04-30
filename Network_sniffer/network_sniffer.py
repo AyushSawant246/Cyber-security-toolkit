@@ -1,5 +1,6 @@
 from scapy.all import sniff, IP
-
+packet_limit = int(input("Enter number of packets to capture (default 10): ") or 10)
+packets = sniff(count=packet_limit)
 # Callback function to process captured packets
 def packet_callback(packet):
     if IP in packet:
