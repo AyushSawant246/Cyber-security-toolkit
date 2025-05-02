@@ -1,0 +1,8 @@
+admin
+backup
+test
+images
+uploads
+secret
+config
+login
