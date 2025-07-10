@@ -10,7 +10,7 @@ def generate_key():
 
 # Load the saved key
 def load_key():
-    if not os.path.exists("key.key"):
+    if not os.path.exists("secret.key.key"):
         print("[❌] Key file not found! Please generate it using 'generate_key()' first.")
         exit(1)
     with open("key.key", "rb") as key_file:
