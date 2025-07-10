@@ -1,52 +1,51 @@
-📖 About
-A beginner-friendly repository for cybersecurity projects, scripts, and tools made with Linux and Python.
-This repo is a learning journey toward mastering ethical hacking, cybersecurity fundamentals, and becoming a professional ethical hacker.
+# 🔐 Cybersecurity Beginner Toolkit
 
-📂 Project Structure
-Linux Tools → Shell scripts for scanning, footprinting, enumeration.
+A small Python project I made to learn and test some basic cybersecurity concepts.  
+It’s not a pro tool — just beginner scripts to see how common tasks work in real life.
 
-Python Scripts → Mini tools like port scanners, brute-force testers, and vulnerability scanners.
+---
 
-Notes → Important Linux commands, cybersecurity notes, and cheat sheets.
+## 📂 What’s Inside
 
-🎯 My Mission
-Build real-world cybersecurity mini-projects.
+This toolkit includes:
 
-Get strong at Linux and Python for security.
+- **Port Scanner** → Scan open ports on a target.
+- **Subdomain Scanner** → Find subdomains for a domain.
+- **MAC Address Changer** → Change your network MAC address (Linux only).
+- **Network Sniffer** → Capture and save packets on your network.
+- **Encryption & Decryption Tool** → Encrypt/decrypt messages using a key.
 
-Document everything I learn openly.
+### Each tool has its own folder with:
 
-Build foundations for professional certifications (CEH, OSCP, Security+).
+✅ Python script  
+✅ `README.md` showing how to use it  
 
-⚙️ Tech Stack
-🐧 Linux (Ubuntu/Kali)
+---
 
-🐍 Python 3
+#### ⚙️ How to Use
 
-🌐 Networking & Protocols (TCP/IP, HTTP)
+1. **Clone this repo**
+   ```bash
+   git clone https://github.com/[YOUR_USERNAME]/Cyber-security-toolkit.git
+   cd Cyber-security-toolkit
 
-🔒 Cybersecurity Concepts
+2. **Install required packages**
+   ```bash
+   pip install -r requirements.txt
 
-📌 Current Focus
-Learning Ethical Hacking
+3. **Run a tool**
+   cd [tool_folder]
+   python [script_name].py
 
-Mastering Linux for Hacking
+4. **Example**
+   cd port_scanner
+   python port_scanner.py
 
-Building Python Security Tools
+##### 📚 Why I Made This
 
-Preparing for Internships & Real-World Projects
+I’m a student learning ethical hacking & networking basics.
+This is my way to practice by building small scripts instead of just watching tutorials.
 
-📜 Disclaimer
-This project is for educational purposes only.
-Unauthorized penetration testing or illegal hacking is strictly prohibited.
-
-⭐ Support
-If you find this project helpful, don't forget to:
-
-⭐ Star the repo
-
-🍴 Fork if you want to build your own version
-
-🛠️ Contribute if you have ideas!
-
-🚀 Let's Hack, Learn, and Build the Future!
+###### ⚖️ License
+MIT — use it, share it, learn from it.
+See LICENSE.
