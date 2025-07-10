@@ -1,7 +1,12 @@
 
-.gitattributes
-Network_sniffer/captured_packets.pcap
-Network_sniffer/network_sniffer.py
-Network_sniffer/network_sniffer.py
-Network_sniffer/network_sniffer.py
-Network_sniffer/network_sniffer.py
+# Ignore secret keys
+*.key
+
+# Ignore packet captures
+*.pcap
+
+# Ignore Python cache folders
+__pycache__/
+
+# Ignore any temporary scripts
+scripts/cleanup_script.sh
