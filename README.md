@@ -34,10 +34,12 @@ This toolkit includes:
    pip install -r requirements.txt
 
 3. **Run a tool**
+   ```bash
    cd [tool_folder]
    python [script_name].py
 
 4. **Example**
+   ```bash
    cd port_scanner
    python port_scanner.py
 
