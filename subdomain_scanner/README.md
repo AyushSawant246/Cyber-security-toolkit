@@ -22,7 +22,7 @@ Python 3.x
 
 requests library
 
-#### 🚀 How to run:
+### 🚀 How to run:
 
 1. **Open terminal or command prompt**
 
@@ -48,13 +48,13 @@ requests library
    [ACTIVE] https://www.google.com
    [ACTIVE] https://mail.google.com
 
-##### 💡 Basic wordlist
+### 💡 Basic wordlist
 
 This version uses a hardcoded list of common subdomains:
 
 ["www", "mail", "ftp", "test", "admin", "blog", "dev", "shop"]
 
-###### 📝 Notes
+### 📝 Notes
 
 This is a basic proof-of-concept — it only checks if subdomains respond with HTTP 200.
 
@@ -62,7 +62,7 @@ It may not find all subdomains — for full scans, tools like Sublist3r or amass
 
 Use this script only on domains you own or have permission to test!
 
-###### 🌱 Future Improvements
+### 🌱 Future Improvements
 
 Use DNS resolution instead of just HTTP checks.
 
@@ -72,12 +72,12 @@ Load subdomain wordlists from files.
 
 Combine with passive sources like search engines.
 
-###### 📂 Files
+### 📂 Files
 
 subdomain_scanner.py — main script
 
-###### ⚖️ License
+### ⚖️ License
 
 MIT License — for learning & educational purposes only.
 
-**🔍 Happy Recon! 🚀**
+## 🔍 Happy Recon! 🚀
